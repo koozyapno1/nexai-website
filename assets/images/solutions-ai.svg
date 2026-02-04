@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1"/>
+      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Dark Background -->
+  <rect width="1024" height="1024" fill="url(#bgGrad2)"/>
+  
+  <!-- Floating Cards representing AI Solutions -->
+  <g transform="translate(512, 400)">
+    <!-- Healthcare Card -->
+    <g transform="translate(-300, -100)">
+      <rect width="200" height="120" rx="16" fill="#1e293b" stroke="#22d3ee" stroke-width="1" opacity="0.8"/>
+      <text x="100" y="40" text-anchor="middle" font-size="32">🏥</text>
+      <text x="100" y="70" text-anchor="middle" fill="white" font-family="Arial" font-size="14" font-weight="bold">Healthcare</text>
+      <text x="100" y="90" text-anchor="middle" fill="#94a3b8" font-family="Arial" font-size="11">Medical AI, Diagnostics</text>
+    </g>
+    
+    <!-- E-commerce Card -->
+    <g transform="translate(100, -120)">
+      <rect width="200" height="120" rx="16" fill="#1e293b" stroke="#f472b6" stroke-width="1" opacity="0.8"/>
+      <text x="100" y="40" text-anchor="middle" font-size="32">🛒</text>
+      <text x="100" y="70" text-anchor="middle" fill="white" font-family="Arial" font-size="14" font-weight="bold">E-commerce</text>
+      <text x="100" y="90" text-anchor="middle" fill="#94a3b8" font-family="Arial" font-size="11">Recommendations, Analytics</text>
+    </g>
+    
+    <!-- Enterprise Card -->
+    <g transform="translate(-300, 50)">
+      <rect width="200" height="120" rx="16" fill="#1e293b" stroke="#fbbf24" stroke-width="1" opacity="0.8"/>
+      <text x="100" y="40" text-anchor="middle" font-size="32">🏢</text>
+      <text x="100" y="70" text-anchor="middle" fill="white" font-family="Arial" font-size="14" font-weight="bold">Enterprise</text>
+      <text x="100" y="90" text-anchor="middle" fill="#94a3b8" font-family="Arial" font-size="11">Automation, Workflows</text>
+    </g>
+    
+    <!-- Apps Card -->
+    <g transform="translate(100, 30)">
+      <rect width="200" height="120" rx="16" fill="#1e293b" stroke="#a78bfa" stroke-width="1" opacity="0.8"/>
+      <text x="100" y="40" text-anchor="middle" font-size="32">📱</text>
+      <text x="100" y="70" text-anchor="middle" fill="white" font-family="Arial" font-size="14" font-weight="bold">Apps & Platforms</text>
+      <text x="100" y="90" text-anchor="middle" fill="#94a3b8" font-family="Arial" font-size="11">Smart Features, APIs</text>
+    </g>
+  </g>
+  
+  <!-- Central Connection Hub -->
+  <g transform="translate(512, 200)">
+    <circle r="40" fill="url(#accentGrad)" filter="url(#glow)">
+      <animate attributeName="r" values="38;42;38" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="8" text-anchor="middle" fill="white" font-family="Arial" font-size="14" font-weight="bold">NEX</text>
+    
+    <!-- Connecting lines -->
+    <g stroke="#6366f1" stroke-width="2" opacity="0.5">
+      <line x1="-210" y1="0" x2="-40" y2="0"/>
+      <line x1="40" y1="0" x2="210" y2="-80"/>
+      <line x1="-210" y1="150" x2="-40" y2="50"/>
+      <line x1="40" y1="30" x2="210" y2="130"/>
+    </g>
+  </g>
+  
+  <!-- Title -->
+  <text x="512" y="850" text-anchor="middle" fill="white" font-family="Arial" font-size="36" font-weight="bold">AI Solutions for Every Industry</text>
+  <text x="512" y="890" text-anchor="middle" fill="#94a3b8" font-family="Arial" font-size="18">Custom AI development tailored to your business needs</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="100" cy="150" r="2" fill="#6366f1" opacity="0.5">
+    <animate attributeName="opacity" values="0.2;0.8;0.2" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="900" cy="700" r="3" fill="#22d3ee" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="150" cy="800" r="2" fill="#fbbf24" opacity="0.5">
+    <animate attributeName="opacity" values="0.3;0.9;0.3" dur="4s" repeatCount="indefinite"/>
+  </circle>
+</svg>
